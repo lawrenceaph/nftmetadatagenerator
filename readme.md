@@ -73,11 +73,12 @@ The input object allows for robust customization. It has the following structure
 **possibleValues:** an array of objects, each of which has the following properties:
 
 **value:** a string or a number that represents a possible value of the trait
+
 **percentage:** a number that represents the percentage chance of the value being selected
 
-The default value is an array of 7 traits, each with 5 possible values.
+The default value of uniqeTraits is an array of 7 traits, each with 5 possible values.
 
-**incrementImageURLs:** (optional) a boolean that determines whether to increment the image URL to match common metadata patterns.  The default value is false because the generator uses a placeholder image service.
+**incrementImageURLs:** (optional) a boolean that determines whether to increment the image URL to match common NFT metadata patterns.  The default value is false because the generator uses a placeholder image service.
 
 **image:** (optional) a string that represents the base URL for the image. The default value is "https://picsum.photos/400".
 
