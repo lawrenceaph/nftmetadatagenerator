@@ -2,7 +2,7 @@
   "name": "nftmetadatagenerator",
   "version": "1.0.13",
   "description": "A tool to generate metadata for NFT Project Testing",
-  "main": "dist/index.ts",
+  "main": "dist/generator.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,7 @@
     "metadata",
     "nft"
   ],
-  "types": "dist/index.d.ts",
+  "types": "dist/generator.d.ts",
   "author": "lawrenceaph",
   "license": "MIT",
   "files": [
