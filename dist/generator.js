@@ -69,12 +69,12 @@ const generator = (input) => {
                 { value: 17, percentage: 20 },
             ]
         },
-    ], incrementImageURLs = false, image = "https://picsum.photos/400", imageSuffix = "", autogenerate = true, collectionSize = 100, name = '', description = 'Freely Generated Metadata', compiler = 'Free Metadata Generator', } = input;
+    ], incrementImageURLs = false, image = "https://picsum.photos/400", imageSuffix = "", autogenerate = true, collectionSize = 100, name = 'Awesome Collection', description = 'Freely Generated Metadata', compiler = 'Free Metadata Generator', } = input;
     const outputs = [];
     if (autogenerate) {
         for (let seed = 1; seed <= collectionSize; seed++) {
             const output = {
-                name: name ? `${name} ${seed}` : `${seed}`,
+                name: `${name} ${seed}`,
                 description,
                 compiler,
                 image: incrementImageURLs
@@ -97,7 +97,7 @@ const generator = (input) => {
     else {
         for (let seed = 1; seed <= collectionSize; seed++) {
             const output = {
-                name: name ? `${name} ${seed}}` : `${seed}`,
+                name: `${name} ${seed}}`,
                 description,
                 compiler,
                 image: incrementImageURLs
