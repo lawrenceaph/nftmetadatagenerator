@@ -1,6 +1,6 @@
 {
   "name": "nftmetadatagenerator",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A tool to generate metadata for NFT Project Testing",
   "main": "dist/index.ts",
   "scripts": {
