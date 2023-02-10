@@ -84,7 +84,7 @@ The default value is an array of 7 traits, each with 5 possible values.
 
 **imageSuffix:** (optional) a string that represents the suffix to be added to the image URL. The default value is an empty string.
 
-**name:** (optional) a string that represents the base name of the generated object. The default value is an empty string.
+**name:** (optional) a string that represents the base name of the generated object. The default value a placeholder.
 
 **description:** (optional) a string that represents the base description of the generated object. The default value is "Freely Generated Metadata".
 
