@@ -140,3 +140,5 @@ Here is a sample input object:
         }
 
 ```
+
+This library powers the [Free NFT Metadata Generator](https://metadata.pilipinas.dev/).
