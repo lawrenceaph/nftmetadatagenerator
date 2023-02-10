@@ -29,7 +29,7 @@ Console logging the first object in the returned array will result in:
 
 ```
 
-{"name":"POWER 1",
+{"name":"Awesome Collection 1",
 
 "description":"Freely Generated Metadata",
 "compiler":"Free Metadata Generator",
