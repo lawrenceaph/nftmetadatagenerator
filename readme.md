@@ -107,6 +107,16 @@ The returned Output objects have the following structure:
 }
 ```
 
+The Attribute described above has this structure:
+
+```
+  {
+  trait_type: string;
+  value?: string | number;
+}
+```
+
+
 Output objects are returned in an array.
 
 Here is a sample input object:
