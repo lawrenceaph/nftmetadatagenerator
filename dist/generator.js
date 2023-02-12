@@ -132,3 +132,4 @@ function getSelectedValue(possibleValues, randomFunction) {
     return (_a = possibleValues[0]) === null || _a === void 0 ? void 0 : _a.value;
 }
 exports.default = generator;
+module.exports = generator;
